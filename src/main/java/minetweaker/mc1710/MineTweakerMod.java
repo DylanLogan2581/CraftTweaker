@@ -58,14 +58,12 @@ public class MineTweakerMod {
 	public static final SimpleNetworkWrapper NETWORK = NetworkRegistry.INSTANCE.newSimpleChannel(MODID);
 
 	private static final String[] REGISTRIES = {
-			"minetweaker.mods.ic2.ClassRegistry",
 			"minetweaker.mods.nei.ClassRegistry",
 			"minetweaker.mods.mfr.ClassRegistry",
 			"minetweaker.mods.gregtech.ClassRegistry",
 			"minetweaker.mods.buildcraft.ClassRegistry"
 	};
 	private static final String[] REGISTRY_DESCRIPTIONS = {
-			"IC2 mod support",
 			"NEI mod support",
 			"MFR mod support",
 			"GregTech mod support",
